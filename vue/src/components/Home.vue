@@ -1,7 +1,7 @@
 <!--Nadir Mohamed-->
 <template>
     <div>
-    <h1>Take Attendance</h1>
+    <h2>Take Attendance</h2>
     
     <form>
         <label> First Name:</label>
@@ -186,7 +186,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-  h1 {
+  h2 {
     text-align: center;
   }
   form {
@@ -207,7 +207,7 @@ export default {
     color: black;
     display: inline-block;
     margin: 25px 0 15px;
-    font-size: 0.6em;
+    font-size: 0.8em;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
@@ -240,7 +240,7 @@ export default {
   }
 
   button {
-    background: #0b6dff;
+    background: black;
     border: 0;
     padding: 10px 20px;
     margin-top: 20px;
@@ -270,6 +270,7 @@ export default {
   }
 
   table, tr, td {
+    color: white;
     border: 3px solid black;
     border-collapse: collapse;
   }
@@ -285,11 +286,11 @@ export default {
   }
 
   tr:nth-child(even) {
-    background-color: #0b6dff85;
+    background-color: black;
   }
 
   tr:nth-child(odd) {
-    background-color: #0b6dff50;
+    background-color: black;
   }
 
   th.firstname {

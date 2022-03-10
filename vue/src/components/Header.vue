@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary justify-content-center">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-center">
       <a class="navbar-brand abs" href="#">Attendance App</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style scoped>
+
 .navbar-brand.abs
 {
   position: absolute;
